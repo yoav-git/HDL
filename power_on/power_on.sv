@@ -1,17 +1,17 @@
 /*
 ----------------------------------------
 Power on
-Authors:	Yoav 
+Authors:    Yoav 
 File:	    power_on.sv
 Date:       31/05/2022 	
 ----------------------------------------
 */
 module power_on(
-				input logic resetb,
-				input logic clk,
-				input power_good,
-				output logic enable
-				);
+		input logic resetb,
+		input logic clk,
+		input power_good,
+		output logic enable
+		);
 	// clock frequancy: 100 [MHz]
 	
 	parameter logic[4:0] END_COUNT = 5'b11110; // (30 DEC) 
