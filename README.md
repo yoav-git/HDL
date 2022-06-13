@@ -1,2 +1,2 @@
 # HDL
-System Verilog
+SystemVerilog
